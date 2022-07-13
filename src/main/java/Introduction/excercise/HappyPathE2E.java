@@ -73,6 +73,8 @@ public class HappyPathE2E {
 		//make the search
 		driver.findElement(By.id("ctl00_mainContent_btn_FindFlights")).click();
 		System.out.println("FINISHED");
+		
+		
 	}
 
 }
