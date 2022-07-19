@@ -7,6 +7,7 @@ public class Navigations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\1000075142\\\\Documents\\\\chromedriver.exe");
