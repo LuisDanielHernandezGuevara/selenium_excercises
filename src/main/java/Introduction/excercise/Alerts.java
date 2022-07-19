@@ -20,11 +20,9 @@ public class Alerts {
 		Thread.sleep(3000);
 
 		System.out.println(driver.switchTo().alert().getText());
-		Thread.sleep(3000);
 
 		driver.switchTo().alert().accept();
 		
-		Thread.sleep(3000);
 		
 		driver.findElement(By.id("confirmbtn")).click();
 		Thread.sleep(3000);
