@@ -20,9 +20,7 @@ public class DinamicDropdown {
 		//driver.findElement(By.xpath("//a[@value='BLR']")).click();
 		//Thread.sleep(2000);
 		
-		//diplayed groupitems 1
-		/*driver.findElement(By.xpath("ctl00_mainContent_group_details1")).click();
-		Thread.sleep(2000);*/
+	
 		
 		
 		//displayed group items 2
