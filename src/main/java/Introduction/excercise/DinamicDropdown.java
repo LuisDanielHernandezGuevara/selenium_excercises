@@ -12,9 +12,7 @@ public class DinamicDropdown {
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 	
 		//ACCESS DROPDOWNS WITH PARENT /CHILD RELATIONS
-		
-		
-		
+	
 		//driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='BLR']")).click();
 		Thread.sleep(2000);

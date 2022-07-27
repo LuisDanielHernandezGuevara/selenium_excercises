@@ -18,6 +18,7 @@ public class Scope {
 		WebDriver d = new ChromeDriver();
 		d.get("http://qaclickacademy.com/practice.php");
 		
+		
 	//give me the count of links the page
 		
 		System.out.println(d.findElements(By.tagName("a")).size());
