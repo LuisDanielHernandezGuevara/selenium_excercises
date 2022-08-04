@@ -20,7 +20,6 @@ public class NewWindow {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\1000075142\\Documents\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 
 		driver.switchTo().newWindow(WindowType.TAB);

@@ -3,6 +3,7 @@ package Introduction.excercise;
 import java.time.Duration;
 import java.util.NoSuchElementException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,7 +27,9 @@ public class FluentWaitTest {
     			.ignoring(NoSuchElementException.class);
     	
     	WebElement foo = wait.until(new Function<WebDriver, WebElement>(){
-    		
+    		public WebElement apply(WebDriver driver) {
+    			return driver.findElement(By.id(""));
+    		}
     	});
 	}
 

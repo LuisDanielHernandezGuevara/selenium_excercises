@@ -29,14 +29,7 @@ public class ActionsDemo {
 		act.moveToElement(move).click().build().perform();
 		//moves to specific element
 		act.moveToElement(move).contextClick().build().perform();
-		//drap an down
-		
-		
-		
-		
-		
-		
-		
+		//drap an down	
 	}
 
 }
