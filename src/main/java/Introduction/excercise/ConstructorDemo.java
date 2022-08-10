@@ -7,10 +7,11 @@ public class ConstructorDemo {
 
 	public ConstructorDemo() {
 		int a =16;
+		final String Test = "Test String"; // Final is used to declares constants
 		System.out.println("Constructor");
-		System.out.println(this.a);
-		System.out.println(a);
-
+		System.out.println(this.a);//Scope is global returns Letter a
+		System.out.println(a); // scope is function returns 16
+		
 	}
 	
 	public ConstructorDemo(int param1 , int param2) {
@@ -22,6 +23,11 @@ public class ConstructorDemo {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//CONSTRUCTOR WHEN IS DECLARED RETURNS THE VALUE DECLARED WITHOUT CALL A METHOD 
+		//WE CAN HAVE MORE THAN ONE CONSTRUCTOR
+		//A CONSTRUCTOR CAN HAVE OR NOT PARAMS
+		
 		ConstructorDemo cD = new ConstructorDemo();
 		ConstructorDemo cDP = new ConstructorDemo(2,3);
 		
