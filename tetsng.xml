@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test>
+	<classes>
+		<class name="main.PageObjects.HomePage"/>
+		<class name="main.PageObjects.ValidateNavigationBar"/>
+		<class name="main.PageObjects.LoginPage"/>
+	<classes>
+<test>
+</suite>

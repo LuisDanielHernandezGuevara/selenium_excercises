@@ -9,22 +9,23 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.apache.logging.log4j.*;
+import org.apache.log4j.LogManager;  
+import org.apache.log4j.Logger;  
+import org.apache.log4j.BasicConfigurator;  
 
 public class ExcelCreator {
 	public static Logger Log = LogManager.getLogger(ExcelCreator.class.getName());
-
 	public static void main(String[] args)  {
 
 		try {
-			
-			
+						
 		FileInputStream input = new FileInputStream("C://Users//1000075142//Documents//Book1.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(input);
 		int number = workbook.getNumberOfSheets();
 		
 		for(int i = 0 ;i < number; i++) {
 			System.out.println(workbook.getSheetName(i));
+			BasicConfigurator.configure();
 			Log.debug("SheetName got");
 			Log.info("Information log");
 			
