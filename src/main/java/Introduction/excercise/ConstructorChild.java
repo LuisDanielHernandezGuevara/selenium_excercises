@@ -8,4 +8,5 @@ public class ConstructorChild extends ConstructorDemo{
 	public void getData() {
 		System.out.println(super.test1);
 	}
+	
 }
